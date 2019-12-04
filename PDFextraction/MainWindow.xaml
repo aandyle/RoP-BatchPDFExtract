@@ -1,0 +1,18 @@
+﻿<Window x:Class="PDFextraction.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PDFextraction"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnUpload" Content="Load Files" HorizontalAlignment="Left" Margin="10,34,0,0" VerticalAlignment="Top" Width="112" Click="btnUpload_Click" Height="41"/>
+        <ListBox x:Name="lbFiles" HorizontalAlignment="Left" Height="274" Margin="10,91,0,0" VerticalAlignment="Top" Width="557"/>
+        <Button x:Name="btnExtract" Content="Extract" HorizontalAlignment="Left" Margin="592,34,0,0" VerticalAlignment="Top" Width="107" Click="BtnExtract_Click" IsEnabled="False" Height="41"/>
+        <ListBox x:Name="lbOutput" HorizontalAlignment="Left" Height="274" Margin="592,91,0,0" VerticalAlignment="Top" Width="192"/>
+        <Button x:Name="btnSave" Content="Save Results" HorizontalAlignment="Left" Margin="642,374,0,0" VerticalAlignment="Top" Width="86" IsEnabled="False" Click="BtnSave_Click" Height="36"/>
+        <TextBox HorizontalAlignment="Left" Height="36" Margin="10,374,0,0" TextWrapping="Wrap" Text="Requires modify to C:\PEELAPPS\ . Appends result to output.csv file&#xD;&#xA;MAX 40 files per run; re-launch app after each run!" VerticalAlignment="Top" Width="522" IsEnabled="False"/>
+
+    </Grid>
+</Window>
