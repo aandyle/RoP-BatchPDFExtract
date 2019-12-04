@@ -1,0 +1,14 @@
+# RoP-BatchPDFExtract
+Bulk extract references field from Knowledge Base articles and Technical Documentation articles on the Region of Peel internal knowledge base. Export and append all results to a .csv file.
+
+## Getting Started
+
+Create folder C:\PEELAPPS\ with full permissions on your machine.
+
+## Built With
+
+* [IronPDF](https://ironpdf.com/) - Library to read PDF files; development usage only
+
+## Authors
+
+* **Andy Le** - *Design/Development* - [aandyle](https://github.com/aandyle/)
