@@ -9,6 +9,8 @@ Create folder C:\PEELAPPS\ with full permissions on your machine. A output.csv f
 
 Region of Peel's KB/TD files contain References field at the end of the document. Select target PDF files, click extract then click save to save the results to a .csv file.
 
+![Screenshot](https://github.com/aandyle/RoP-BatchPDFExtract/blob/master/screenshot%20redacted.PNG)
+
 ## Limitations
 
 Max 40 PDF files can be selected at a time with PDF library development usage limits.
